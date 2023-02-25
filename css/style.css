@@ -42,14 +42,11 @@ body {
 
 .navigation-list,
 .right-navigation-list {
-
     display: flex;
     gap: 50px;
 }
 
-.right-navigation-list {
-    padding-left: 376px;
-}
+
 
 .logo-portfolio-header {
     text-decoration: none;
@@ -59,6 +56,8 @@ body {
     font-size: 26px;
     line-height: 1, 19;
     letter-spacing: 0.03em;
+    display: flex;
+    padding-right: 93px;
 }
 
 .logo-portfolio-header:after {
@@ -73,6 +72,23 @@ body {
     line-height: 1, 14;
     letter-spacing: 0.02em;
     background: var(--focus-color);
+    display: flex;
+}
+
+.navbar-portfolio {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.right-navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .navigation-list li a {
@@ -107,7 +123,9 @@ body {
     color: #FFFFFF;
     border: 0px;
     cursor: pointer;
- 
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 500px;
 
 
 }
