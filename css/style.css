@@ -140,7 +140,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -151,12 +151,13 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height:1,16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .section-images,
@@ -173,7 +174,6 @@ body {
 }
 
 .our-team-section li {
-    margin-top: 94px;
     background: var(--focus-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -189,10 +189,15 @@ body {
     padding-top: 200px;
 }
 
+.indication-section {
+    padding-top: 94px;
+}
+
 .indication-section .container {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .indication-section>h3 {
@@ -221,17 +226,19 @@ body {
     margin-right: 25px;
 
 }
-
+.our-team-section li h3,
+.our-team-section li p{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* main*/
-.color-main {
-   
 
+.button-section li button {
+    padding: 6px 22px;
 }
-.button-section li button{
-    padding: 6px 22px ;
-}
+
 .button-section {
     padding-bottom: 34px;
     box-sizing: border-box;
@@ -267,7 +274,7 @@ body {
 .images-section div ul li {
     border: 1px solid #EEEEEE;
     width: 370px;
-   
+
     background: var(--focus-color);
 }
 
@@ -281,12 +288,12 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-left:24px ;
+    padding-left: 24px;
 }
 
 .title-portfolio li p {
     padding-left: 24px;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
     font-size: 16px;
     line-height: 1, 66;
     letter-spacing: 0.03em;
@@ -303,7 +310,7 @@ body {
 }
 
 .logo-portfolio-footer {
-    
+
     font-family: 'Raleway' sans-serif;
     font-style: normal;
     text-decoration: none;
@@ -321,11 +328,12 @@ body {
 }
 
 .address-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 16px;
     letter-spacing: 0.03em;
-    display: flex;
 }
 
 .address-portfolio div div a:hover,
